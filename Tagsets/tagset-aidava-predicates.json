@@ -1,0 +1,70 @@
+{
+  "name" : "AIDAVA-predicates",
+  "description" : "The main reason for these predicates is to shield users from the complexity of the internal wiring of SNOMED CT and FHIR, including the possibility of redundant representations. The suggested predicates are expected to cover 95% of the relational assertions needed.",
+  "language" : null,
+  "tags" : [ {
+    "tag_name" : "abatementTime",
+    "tag_description" : "Raugemise või lõppemise aeg."
+  }, {
+    "tag_name" : "access",
+    "tag_description" : "Protseduuri ligipääs"
+  }, {
+    "tag_name" : "actionStatus",
+    "tag_description" : "Protseduuri või ravi staatus (*in-progress, not-done, on-hold, completed, entered-in-error , stopped, unknown*)."
+  }, {
+    "tag_name" : "after",
+    "tag_description" : "Protseduurile ajaliselt järgnev leid või juhtum."
+  }, {
+    "tag_name" : "beginTime",
+    "tag_description" : "Alguse või alustamise aeg."
+  }, {
+    "tag_name" : "device",
+    "tag_description" : "Protseduuris kasutatud füüsiline seade."
+  }, {
+    "tag_name" : "dueTo",
+    "tag_description" : "Protseduuri tõttu tekkinud leid või juhtum."
+  }, {
+    "tag_name" : "informant",
+    "tag_description" : "Kelle sõnul midagi oli või on."
+  }, {
+    "tag_name" : "laterality",
+    "tag_description" : "Lateraalsus ehk külgsus (vasak, parem, mõlemad ehk bilateraalne)"
+  }, {
+    "tag_name" : "morphology",
+    "tag_description" : "Morfoloogiline kõrvalekalle."
+  }, {
+    "tag_name" : "procedureStatus",
+    "tag_description" : "Protseduuri staatus (*planned, stopped, on-hold, not-done, in-progress, default, preparation, completed*)."
+  }, {
+    "tag_name" : "sameAs",
+    "tag_description" : "Sama mis kuskil teises lauses mainitud"
+  }, {
+    "tag_name" : "site",
+    "tag_description" : "Leiuga või protseduuriga otseselt seotud kehaosa."
+  }, {
+    "tag_name" : "siteIndirect",
+    "tag_description" : "Kehaosa mille juures või sees protseduur käib, aga mida protseduur otseselt ei puuduta (vrd site). Näide: \"*breast*\" protseduuris \"*Removal of filling material from breast*\"."
+  }, {
+    "tag_name" : "specimen",
+    "tag_description" : "Protseduuriga seotud proov."
+  }, {
+    "tag_name" : "unit",
+    "tag_description" : "Väärtuse ühik."
+  }, {
+    "tag_name" : "usingSubstance",
+    "tag_description" : "Protseduuris kasutatud aines."
+  }, {
+    "tag_name" : "value",
+    "tag_description" : "Mingi leiu või nähtuse väärtus (nt vererõhk)."
+  }, {
+    "tag_name" : "valueHigh",
+    "tag_description" : "Mingi leiu või nähtuse väärtuse vahemiku ülemväärtus (nt vererõhk)."
+  }, {
+    "tag_name" : "valueLow",
+    "tag_description" : "Mingi leiu või nähtuse väärtuse vahemiku alamväärtus (nt vererõhk)."
+  }, {
+    "tag_name" : "verificationStatus",
+    "tag_description" : "Mingi leiu või juhtumi staatus (*Unconfirmed, Provisional, Confirmed, Refuted, Entered-in-error, Unknown*)."
+  } ],
+  "create_tag" : false
+}
