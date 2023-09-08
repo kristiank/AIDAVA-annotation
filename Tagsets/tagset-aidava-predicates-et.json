@@ -1,7 +1,7 @@
 {
   "name" : "AIDAVA-predicates",
   "description" : "The main reason for these predicates is to shield users from the complexity of the internal wiring of SNOMED CT and FHIR, including the possibility of redundant representations. The suggested predicates are expected to cover 95% of the relational assertions needed.",
-  "language" : null,
+  "language" : "et",
   "tags" : [ {
     "tag_name" : "abatementTime",
     "tag_description" : "Raugemise või lõppemise aeg."

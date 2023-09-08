@@ -1,0 +1,70 @@
+{
+  "name" : "AIDAVA-predicates",
+  "description" : "The main reason for these predicates is to shield users from the complexity of the internal wiring of SNOMED CT and FHIR, including the possibility of redundant representations. The suggested predicates are expected to cover 95% of the relational assertions needed.",
+  "language" : "et",
+  "tags" : [ {
+    "tag_name" : "abatementTime",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "access",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "actionStatus",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "after",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "beginTime",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "device",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "dueTo",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "informant",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "laterality",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "morphology",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "procedureStatus",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "sameAs",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "site",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "siteIndirect",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "specimen",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "unit",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "usingSubstance",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "value",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "valueHigh",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "valueLow",
+    "tag_description" : ""
+  }, {
+    "tag_name" : "verificationStatus",
+    "tag_description" : ""
+  } ],
+  "create_tag" : false
+}
