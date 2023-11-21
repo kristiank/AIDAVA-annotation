@@ -1,9 +1,9 @@
 from cassis import *
 import os
 import pandas as pd
-import nltk
-nltk.download('punkt')
-from nltk.tokenize import word_tokenize
+#import nltk
+#nltk.download('punkt')
+#from nltk.tokenize import word_tokenize
 import zipfile
 
 
