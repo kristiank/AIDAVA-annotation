@@ -11,3 +11,4 @@ Running the script takes some minutes at NEMC.
 
 
 Statistics are compiled per user. The csv files are saved reflecting the username under each projects unzipped folder in the 'export-zips' folder.
+If statistics are not needed for some users, the username can be added to the 'user_blacklist' list in the script.
