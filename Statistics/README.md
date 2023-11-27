@@ -16,7 +16,6 @@ Run the script with the command 'python statistics_calculator.py'.
 
 If any new, unzipped files are present, the script unzips the project files and you need to run the script again to produce statistics. Consecutively running the script only calculates the statistics and does not unzip the files. To unzip a project afresh simply delete the corresponding unzipped project folder.
 
-
 Running the script takes approximately a minute at NEMC.
 
 ## Generated statistics
@@ -32,3 +31,11 @@ Statistics/
 +++ relation_results-user2.csv
 
 If statistics are not needed for some users, the username can be added to the 'user_blacklist' list in the script.
+
+## Dependencies
+
+The script has dependencies to 'Pandas' and 'dkpro-cassis'. Install them with the following commands:
+'''
+pip install dkpro-cassis
+pip install pandas
+'''
