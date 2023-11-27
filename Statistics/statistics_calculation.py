@@ -127,7 +127,7 @@ def report(project_folder):
         print(f'total number of distinct relations: {count_distinct_relations}')
         print(f'total number of instances of relations: {count_relation_instances}')
 
-    return concept_df, relation_df, count_distinct_concepts, count_concept_instances, count_distinct_relations, count_relation_instances
+    return #concept_df, relation_df, count_distinct_concepts, count_concept_instances, count_distinct_relations, count_relation_instances
 
 
 def count_tokens_in_file(directory_path, language):
