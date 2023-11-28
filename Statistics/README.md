@@ -7,7 +7,7 @@ To download your annotation projects, first open your project in Inception. Then
 
 Inception generates the export (takes up to 15 minutes at NEMC), a link appears on the right pane when ready to download.
 
-Save the exported annotation project(s) zip files into the '"export-zips"' folder, next to the statistics script file. You don't need to unzip the file.
+Save the exported annotation project(s) zip files into the '"export-zips"' folder. You don't need to unzip the file.
 
 
 ## Running the statistics script
