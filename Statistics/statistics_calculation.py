@@ -155,7 +155,7 @@ if __name__ == "__main__":
     if not os.path.exists(export_directory):
         exit("Could not find the export folder ('"+export_directory+"'). Make sure it exists and run this script again.")
     
-    user_blacklist = ['INITIAL_CAS', 'kristian', 'admin']
+    user_blacklist = [] # ['INITIAL_CAS', 'kristian', 'admin']
 
 
     with os.scandir(export_directory) as it:
